@@ -38,3 +38,9 @@ post1.save()
 ### Using post_set 
 user.post_set.all()
 
+### All Posts
+user.post_set.all()
+
+### Create new Post
+user.post_set.create(title='Blog 3', content='Third Post Content')
+
