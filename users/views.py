@@ -7,13 +7,16 @@ def register(request):
         form = UserCreationForm(request.POST)
         if form.is_valid():
             username = form.cleaned_data.get('username')
+            messages.success
+
        else:
        form = UserCreationForm()
     return render(request, 'users/register.html', {'form': form})
 
 
-#message.debug
-#message.success
-#message.info
-#message.warning
-#message.error
+# MESSAGES
+#messages.debug
+#messages.success
+#messages.info
+#messages.warning
+#messages.error
