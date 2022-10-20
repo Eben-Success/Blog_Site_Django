@@ -20,6 +20,6 @@ from users import import views as user_views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('',include('blog.urls') ),
-    path('register/', user_views.register, name='register')
+    path('register/', user_views.register, name='register'),
 ]
 
