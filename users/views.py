@@ -19,6 +19,9 @@ def register(request):
         form = UserRegisterFrom()
     return render(request, 'users/register.html', {'form': form})
 
+def profile(request):
+    return render(request, 'users/profile.html')
+
 
 
 # MESSAGES
