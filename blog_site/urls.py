@@ -30,6 +30,7 @@ urlpatterns = [
 
 ] 
 
+# use the setting if only in Development Stage
 if settings.DEBUG:
     urlpatterns +=  static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
    
