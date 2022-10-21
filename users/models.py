@@ -10,3 +10,7 @@ class Profile(models.Model):
     user = models.OneToOneField(User, on_deete=models.CASCADE)
     image = models.ImageField(default='default.jpg', upload_to='profile_pics')
 
+    # used to return a username + profile
+    def __str__(self):
+        return f'{self.user.username} Profile'
+
