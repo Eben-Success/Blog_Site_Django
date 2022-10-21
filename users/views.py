@@ -8,6 +8,7 @@ def register(request):
         form = UserCreationForm(request.POST)
         #validate the form
         if form.is_valid():
+            form.save()
         # get username
             username = form.cleaned_data.get('username')
             # print a success message
