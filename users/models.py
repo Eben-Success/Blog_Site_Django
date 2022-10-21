@@ -8,4 +8,5 @@ class Profile(models.Model):
     # CASCADE: delete profile if user is delete.
     # But leave user if profile is deleted.
     user = models.OneToOneField(User, on_deete=models.CASCADE)
+    image = models.ImageField(default='default.jpg', upload_to='profile_pics')
 
