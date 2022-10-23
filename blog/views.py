@@ -31,7 +31,7 @@ class PostDetailView(DetailView):
 
 class PostCreateView(CreateView):
     model = Post
-    fileds = ['title', 'content']
+    fields = ['title', 'content']
     
 
 def about(request):
