@@ -23,8 +23,10 @@ def register(request):
 
 @login_required
 def profile(request):
-    u_form = UserUpdateForm()
-    p_form = ProfileUpdateForm()
+    # current login user
+    u_form = UserUpdateForm(instance=request.user)
+    #current profile
+    p_form = ProfileUpdateForm(instance=request.user.profile)
 
     context = {
         'u_form': u_form,
