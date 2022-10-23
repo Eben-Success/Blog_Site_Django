@@ -34,11 +34,13 @@ class PostCreateView(CreateView):
     fields = ['title', 'content']
 
     #override form valid method
-  
+
     def form_valid(self, form):
         # the form you are submit is by the current user
         form.instance.author = self.request.user
         return super().form_valid(form)
+  
+    
     
 
 def about(request):
