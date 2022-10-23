@@ -23,10 +23,15 @@ def register(request):
 
 @login_required
 def profile(request):
-    # current login user
-    u_form = UserUpdateForm(instance=request.user)
-    #current profile
-    p_form = ProfileUpdateForm(instance=request.user.profile)
+    if request.method == 'POST':
+
+        # current login user
+        u_form = UserUpdateForm(request.POST, instance=request.user)
+        #current profile
+        p_form = ProfileUpdateForm(request.POST, request.FILES,  instance=request.user.profile)
+    else:
+        u_form = UserUpdateForm(instance=request.user)
+        p_form = ProfileUpdateForm(instance=request.user.profile)
 
     context = {
         'u_form': u_form,
