@@ -37,7 +37,8 @@ class PostCreateView(CreateView):
 
     def form_valid(self, form):
         # the form you are submit is by the current user
-        form.instance.author = self.request.user
+        #the .pk is a new added feature.
+        form.instance.author = self.request.user.pk
         return super().form_valid(form)
         
         
