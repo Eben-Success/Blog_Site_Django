@@ -14,9 +14,12 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
-        # return the url as a string in reverse
-        def get_absolute_url(self):
-            return reverse('post-detail', kwargs={'pk': self.pk})
+    # return the url as a string in reverse
+    def get_absolute_url(self):
+        return reverse('post-detail', kwargs={'pk': self.pk})
+
+        
+        
 
 
 
