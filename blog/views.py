@@ -41,7 +41,6 @@ class PostCreateView(CreateView):
         return super().form_valid(form)
 
     
-    
 
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})
