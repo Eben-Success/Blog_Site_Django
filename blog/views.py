@@ -39,7 +39,7 @@ class PostCreateView(CreateView):
         # the form you are submit is by the current user
         form.instance.author = self.request.user
         return super().form_valid(form)
-  
+
     
     
 
