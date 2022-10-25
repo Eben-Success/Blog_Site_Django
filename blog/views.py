@@ -2,7 +2,8 @@ from django.views.generic import(
     ListView, 
 DetailView, 
 CreateView, 
-UpdateView
+UpdateView,
+DeleteView
 )
 from django.shortcuts import render
 from .models import Post
@@ -44,6 +45,8 @@ class PostCreateView(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
         
 
+#LoginRequiredMixin ensures the user logins before updating post.
+# UserPassesTestMixin ensures user do not update other people's blog
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Post
     fields = ['title', 'content']
@@ -58,6 +61,14 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
             return True
         return False
         
+class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin,  DeleteView):
+    model = Post
+
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.author:
+            return True
+        return False
 
     
 
