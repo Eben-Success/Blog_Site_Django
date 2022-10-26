@@ -23,7 +23,7 @@ def home(request):
 
 
 class PostListView(ListView):
-    paginate_by = 2
+    paginate_by = 5
     model = Post
     template_name = 'blog/home.html' #<app> / <model> _ <viewtype>.
     context_object_name = 'posts'
