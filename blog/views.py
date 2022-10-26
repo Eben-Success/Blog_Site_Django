@@ -28,6 +28,11 @@ class PostListView(ListView):
     template_name = 'blog/home.html' #<app> / <model> _ <viewtype>.
     context_object_name = 'posts'
     ordering = ['-date_posted']
+
+class UserPostListView(ListView):
+    model = Post
+    template_name = 'blog/user_post.html'
+    ordering = ['-date_posted']
     
 
 
