@@ -143,6 +143,22 @@ Copy recursively
 
 `souce venv/bin/activate`
 
+`pip install -r requirements.txt`
+
+### Change settings.py
+
+`sudo nano django_project/settings.py`
+
+`ALLOWED_HOSTS = ['198.***.***']`
+
+Above Static URL:
+`STATUS_ROOT = os.path.join(BASE_DIR, 'static')`
+
+Get static files working
+`python manage.py collectstatic`
+
+
+
 
 
 
