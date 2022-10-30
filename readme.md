@@ -45,7 +45,7 @@ user.post_set.all()
 user.post_set.create(title='Blog 3', content='Third Post Content')
 
 ## Deploying Application on Linode
-Set up ssh on local mahcine.
+* Set up ssh on local mahcine.
 Install apps on local machine.
 ` apt-get update && apt-get upgrade`
 
@@ -56,7 +56,7 @@ Check it : `hostname`
 Add: 198.58.119.183     django-server
 (ssh IP) to host file
 
-
+* 
 
 
 
