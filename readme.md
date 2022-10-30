@@ -134,7 +134,14 @@ Copy recursively
 `sudo apt-get install python3-pip`
 <br>
 
+## Set up Virtual Environment on Server
 `sudo apt-get install python3-venv`
+
+`python 3 -m venv django_project/venv`
+
+`cd django_project/`
+
+`souce venv/bin/activate`
 
 
 
