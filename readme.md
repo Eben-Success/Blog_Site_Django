@@ -32,8 +32,8 @@ user.pk
 Post.objects.all()
 
 ### Add Post
-post1 = Post(title='Blog 1', content='First Post Content!', author=user)
-post1.save()
+`post1 = Post(title='Blog 1', content='First Post Content!', author=user)`
+`post1.save()`
 
 ### Using post_set 
 user.post_set.all()
