@@ -53,6 +53,8 @@ Install apps on local machine.
 Check it : `hostname`
 
 `nano /etc/hosts`
-Add:
+Add: ssh root@198.58.119.183 (ssh IP)
+
+
 
 
