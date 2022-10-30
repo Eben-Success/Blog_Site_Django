@@ -57,9 +57,11 @@ Add: 198.58.119.183     django-server
 (ssh IP) to host file
 
 * Add limited user
-adduser eben-success
+`adduser eben-success`
 password: *******
 
+* Give new user admin priviledges
+`adduser eben-success sudo`
 
 
 
