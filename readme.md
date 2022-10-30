@@ -83,7 +83,7 @@ password: *******
 
 `ls  .ssh`
 
-
+`sudo chmod 700 ~/.ssh/`
 
 
 
