@@ -91,7 +91,10 @@ password: *******
 * Disallowing password logins
 `sudo nano /etc/ssh/sshd-config`
 1. Change PermitRootLogin    no.
-2. PasswordAuthentication   yes
+2. PasswordAuthentication   no.
+
+
+
 
 
 
