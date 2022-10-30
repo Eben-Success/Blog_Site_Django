@@ -117,7 +117,7 @@ Enable port 8000
 View allowed ports
 `sudo ufw status`
 
-
+If using a virtual environment for django project, create requirement.txt file.
 
 
 
