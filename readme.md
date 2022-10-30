@@ -108,6 +108,16 @@ password: *******
 Allow ssh
 `sudo ufw allow ssh`
 
+Allow port
+`sudo ufw allow 8000`
+
+Enable port 8000
+`sudo ufw enable`
+
+View allowed ports
+`sudo ufw status`
+
+
 
 
 
