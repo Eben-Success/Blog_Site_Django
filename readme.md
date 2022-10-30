@@ -73,7 +73,7 @@ password: *******
 * Generate public/private rsa key pair
 `ssh-keygen -b 4096`
 
-
+`scp ~/.ssh/id-rsa.pub `
 
 
 
