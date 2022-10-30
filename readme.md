@@ -49,7 +49,7 @@ user.post_set.create(title='Blog 3', content='Third Post Content')
 * Install apps on local machine.
 ` apt-get update && apt-get upgrade`
 
-`hostnamectl set-hostname django-server` <br>
+`hostnamectl set-hostname django-server` <br><br>
 Check it : `hostname`
 
 `nano /etc/hosts`
