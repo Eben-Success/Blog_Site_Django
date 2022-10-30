@@ -105,7 +105,8 @@ password: *******
 
 `sudo ufw default deny incoming`
 
-
+Allow ssh
+`sudo ufw allow ssh`
 
 
 
