@@ -132,6 +132,10 @@ Copy recursively
 `scp -r django-project eben-success@198.***.***:~/`
 
 `sudo apt-get install python3-pip`
+<br>
+
+`sudo apt-get install python3-venv`
+
 
 
 
