@@ -93,6 +93,8 @@ password: *******
 1. Change PermitRootLogin    no.
 2. PasswordAuthentication   no.
 
+* Restart ssh service
+`sudo systemctl restart sshd`
 
 
 
