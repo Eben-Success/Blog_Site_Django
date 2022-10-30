@@ -44,3 +44,15 @@ user.post_set.all()
 ### Create new Post
 user.post_set.create(title='Blog 3', content='Third Post Content')
 
+## Deploying Application on Linode
+Set up ssh on local mahcine.
+Install apps on local machine.
+` apt-get update && apt-get upgrade`
+
+`hostnamectl set-hostname django-server`
+Check it : `hostname`
+
+`nano /etc/hosts`
+Add:
+
+
