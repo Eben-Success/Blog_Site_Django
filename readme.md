@@ -128,7 +128,8 @@ If using a virtual environment for django project, create requirement.txt file.
 
 `pip freeze > requirements.txt`
 
-
+Copy recursively
+`scp -r django-project eben-success@198.***.***`
 
 
 
