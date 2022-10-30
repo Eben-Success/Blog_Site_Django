@@ -96,6 +96,17 @@ password: *******
 * Restart ssh service
 `sudo systemctl restart sshd`
 
+<hr>
+### Stepping Up a filewall
+
+`sudo apt-get install ufw`
+
+`sudo ufw default allow outgoing`
+
+`sudo ufw default deny incoming`
+
+
+
 
 
 
