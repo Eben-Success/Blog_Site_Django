@@ -72,8 +72,13 @@ password: *******
 
 * Generate public/private rsa key pair
 `ssh-keygen -b 4096`
+<br>
 
 `scp ~/.ssh/id-rsa.pub eben-success@198.***.***: ~/.ssh/authorized_keys`
+
+
+
+
 
 
 
