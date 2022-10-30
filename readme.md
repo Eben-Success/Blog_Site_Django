@@ -88,7 +88,10 @@ password: *******
 * Add permissions on all files
 `sudo chmod 600 ~/.shh/*`
 
-
+* Disallowing password logins
+`sudo nano /etc/ssh/sshd-config`
+1. Change PermitRootLogin to no.
+2. 
 
 
 
