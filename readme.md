@@ -70,7 +70,8 @@ password: *******
 >- Make .ssh folder
 `mkdir -p ~/.ssh`
 
-
+* Generate public/private rsa key pair
+`ssh-keygen -b 4096`
 
 
 
