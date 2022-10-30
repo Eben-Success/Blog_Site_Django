@@ -67,6 +67,8 @@ password: *******
 * Log in into server
 `ssh eben-success@198.***.***`
 
+<hr>
+### On your local machine
 >- Make .ssh folder
 `mkdir -p ~/.ssh`
 
@@ -75,6 +77,12 @@ password: *******
 <br>
 
 `scp ~/.ssh/id-rsa.pub eben-success@198.***.***: ~/.ssh/authorized_keys`
+
+<hr>
+### Server Terminal
+
+`ls  .ssh`
+
 
 
 
