@@ -119,6 +119,17 @@ View allowed ports
 
 If using a virtual environment for django project, create requirement.txt file.
 
+<hr>
+
+* Activate virtual environment
+`source ~/bin/activate`
+
+`pip freeze`
+
+`pip freeze > requirements.txt`
+
+
+
 
 
 
