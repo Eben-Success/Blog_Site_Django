@@ -85,6 +85,11 @@ password: *******
 
 `sudo chmod 700 ~/.ssh/`
 
+* Add permissions on all files
+`sudo chmod 600 ~/.shh/*`
+
+
+
 
 
 
