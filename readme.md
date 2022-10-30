@@ -64,6 +64,9 @@ password: *******
 * Give new user admin priviledges
 `adduser eben-success sudo`
 
+* Log in into server
+`ssh eben-success@198.***.***`
+
 
 
 
