@@ -57,6 +57,9 @@ Add: 198.58.119.183     django-server
 (ssh IP) to host file
 
 * Add limited user
+adduser eben-success
+password: *******
+
 
 
 
