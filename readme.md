@@ -159,6 +159,27 @@ Get static files working
 
 `python manage.py runserver 0.0.0.0:8000`
 
+<hr>
+### Installing Apache
+
+`sudo apat-get install apache2`
+<br><br>
+
+`sudo apt-get install libapache2-mod-wsgi-py3`
+
+### Configure Apache Web Server
+
+`cd / etc/apache2/sites-available/`
+
+* Open the django_project.conf file and add these
+`sudo nano django_project.conf`
+
+`Alias /static /home/eben-sucess/django_project/static`
+
+
+
+Web Service Gateway Interface
+
 
 
 
