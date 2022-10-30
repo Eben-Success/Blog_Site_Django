@@ -54,7 +54,9 @@ Check it : `hostname`
 
 `nano /etc/hosts`
 Add: 198.58.119.183     django-server
-(ssh IP) to
+(ssh IP) to host file
+
+
 
 
 
