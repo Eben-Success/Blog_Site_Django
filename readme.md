@@ -53,7 +53,8 @@ Install apps on local machine.
 Check it : `hostname`
 
 `nano /etc/hosts`
-Add: ssh root@198.58.119.183 (ssh IP)
+Add: 198.58.119.183     django-server
+(ssh IP) to
 
 
 
