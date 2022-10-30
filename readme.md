@@ -67,6 +67,10 @@ password: *******
 * Log in into server
 `ssh eben-success@198.***.***`
 
+>- Make .ssh folder
+`mkdir -p ~/.ssh`
+
+
 
 
 
