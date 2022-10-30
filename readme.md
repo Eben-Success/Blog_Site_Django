@@ -131,6 +131,8 @@ If using a virtual environment for django project, create requirement.txt file.
 Copy recursively
 `scp -r django-project eben-success@198.***.***:~/`
 
+`sudo apt-get install python3-pip`
+
 
 
 
