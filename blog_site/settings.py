@@ -124,17 +124,17 @@ LOGIN_REDIRECT_URL = "blog-home"
 LOGIN_URL = 'login'
 
 
-import environ
-# Initialise environment variables
-env = environ.Env()
-environ.Env.read_env()
+# import environ
+# # Initialise environment variables
+# env = environ.Env()
+# environ.Env.read_env()
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = env('DJANGO_EMAIL')
-EMAIL_HOST_PASSWORD = env('DJANGO_PASSWORD')
+EMAIL_HOST_USER = os.getenv('DJANGO_EMAIL')
+EMAIL_HOST_PASSWORD =os.getenv('DJANGO_PASSWORD')
 
 
 
