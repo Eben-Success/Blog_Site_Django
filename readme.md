@@ -176,6 +176,22 @@ Get static files working
 
 `Alias /static /home/eben-sucess/django_project/static`
 
+<br>
+
+`<Directory /home/eben-success/django_project/static>`
+`Require all granted`
+
+`</Directory>`
+
+`Alias /media /home/eben-sucess/django_project/static`
+
+<br>
+
+`<Directory /home/eben-success/django_project/static>`
+`Require all granted`
+
+`</Directory>`
+
 
 
 Web Service Gateway Interface
