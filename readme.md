@@ -25,7 +25,9 @@ Success blog has the following features:
 
 ![register](/interface/register.png)
 
-<h2 align='center'>Homepage</h2>
+<h2 align='center'>Forgot Password</h2>
+
+![forgot_password](/interface/resetpassword.png)
 
 
 ## Quick Notes and Commands
