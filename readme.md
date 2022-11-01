@@ -1,8 +1,8 @@
-# Project Documentation
+# Project Documentation - Success Blog
 
-> Used Bootstrap to create frontend and Django for the backend
+> Used Bootstrap to build the frontend and Django for the backend
 
-It has the following features:
+Success blog has the following features:
 
 * Login
 * Register
