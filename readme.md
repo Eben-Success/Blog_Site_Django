@@ -1,6 +1,7 @@
 # Project Documentation
 
 
+
 ### Django Query Commands
 * python manage.py migrate
 * python manage.py shell
