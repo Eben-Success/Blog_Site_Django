@@ -1,6 +1,6 @@
 # Project Documentation
 
->- This Blog site was created using Bootstrap for the frontend and Django for the backend.
+> Used Bootstrap to create frontend and Django for the backend
 
 It has the following features:
 
