@@ -4,11 +4,14 @@
 
 Success blog has the following features:
 
+* Homepage
 * Login
 * Register
 * Forgot Password
 * Profile
 * Post by User
+
+### <center>Homepage</center>
 
 
 ## Quick Notes and Commands
