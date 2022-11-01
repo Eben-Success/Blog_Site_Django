@@ -11,7 +11,9 @@ Success blog has the following features:
 * Profile
 * Post by User
 
-### <center>Homepage</center>
+### Homepage
+
+![homepage](/home/eben-success/WebstormProjects/Blog_Site_Django/interface/homepage.png)
 
 
 ## Quick Notes and Commands
