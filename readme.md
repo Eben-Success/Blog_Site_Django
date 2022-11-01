@@ -42,8 +42,8 @@ Success blog has the following features:
 
 ![new_blog](/interface/createblog.png)
 
-
-
+<br>
+<br>
 
 ## Quick Notes and Commands
 
