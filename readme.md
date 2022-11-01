@@ -13,6 +13,8 @@ Success blog has the following features:
 
 ### Homepage
 
+<h2 align='center'>Homepage</h2>
+
 ![homepage](/interface/homepage.png)
 
 
