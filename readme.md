@@ -13,7 +13,7 @@ Success blog has the following features:
 
 ### Homepage
 
-![homepage](/home/eben-success/WebstormProjects/Blog_Site_Django/interface/homepage.png)
+![homepage](/interface/homepage.png)
 
 
 ## Quick Notes and Commands
