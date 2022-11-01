@@ -1,6 +1,14 @@
 # Project Documentation
 
+>- This Blog site was created using Bootstrap for the frontend and Django for the backend.
 
+It has the following features:
+
+* Login
+* Register
+* Forgot Password
+* Profile
+* Post by User
 
 ### Django Query Commands
 * python manage.py migrate
