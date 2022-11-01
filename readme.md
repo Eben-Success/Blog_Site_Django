@@ -10,6 +10,9 @@ Success blog has the following features:
 * Profile
 * Post by User
 
+
+## Quick Notes and Commands
+
 ### Django Query Commands
 * python manage.py migrate
 * python manage.py shell
