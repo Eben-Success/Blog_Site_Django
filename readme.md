@@ -17,11 +17,13 @@ Success blog has the following features:
 ![homepage](/interface/homepage.png)
 
 <h2 align='center'>Login</h2>
-![Login](/interface/login.png)
+
+![login](/interface/login.png)
 
 
 <h2 align='center'>Register</h2>
-![Register](/interface/register.png)
+
+![register](/interface/register.png)
 
 <h2 align='center'>Homepage</h2>
 
