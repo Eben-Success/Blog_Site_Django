@@ -9,7 +9,8 @@ Success blog has the following features:
 * Register
 * Forgot Password
 * Profile
-* Post by User
+* Posts by User
+* Create new blog
 
 
 <h2 align='center'>Homepage</h2>
@@ -20,6 +21,10 @@ Success blog has the following features:
 
 ![login](/interface/login.png)
 
+<h2 align='center'>Profile</h2>
+
+![profile](/interface/profile.png)
+
 
 <h2 align='center'>Register</h2>
 
@@ -28,6 +33,16 @@ Success blog has the following features:
 <h2 align='center'>Forgot Password</h2>
 
 ![forgot_password](/interface/resetpassword.png)
+
+<h2 align='center'>Posts by user</h2>
+
+![posts](/interface/blogbyuser.png)
+
+<h2 align='center'>New Blog</h2>
+
+![new_blog](/interface/createblog.png)
+
+
 
 
 ## Quick Notes and Commands
